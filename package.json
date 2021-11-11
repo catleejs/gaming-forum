@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   "dependencies": {
     "bcrypt": "^5.0.1",
@@ -44,5 +45,12 @@
     "express-session": "^1.17.2",
     "mysql2": "^2.3.3-rc.0",
     "sequelize": "^6.9.0"
+=======
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+>>>>>>> 18bf79f119d6a8ef219cf08d8880869a0a514406
   }
 }
