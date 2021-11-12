@@ -14,25 +14,31 @@
 <!-- css file import -->
 <link rel="stylesheet" href="css/style.css">
 
-    <title></title>
+    <title>Over The Hill Gaming</title>
 </head>
 <body>
-    <!-- Navbar goes here -->
-    <navbar class="card-panel teal lighten-2">
-        <a href="#Login">Login</a>
-        <a href="#Community">Community</a>
-        <a href="#Top Posts">Top Posts</a>
-    </navbar>
-    <!-- Page Layout here -->
-    <div class="row">
-<div class="row">
-    <div class="col s12"><p>s12</p></div>
-    <div class="col s12 m4 l2"><p>s12 m4</p></div>
-    <div class="col s12 m4 l8"><p>s12 m4</p></div>
-    <div class="col s12 m4 l2"><p>s12 m4</p></div>
-</div>
-    </div>
+    <header>
+      <div class="logo">
+        <h1 class="logo-text"><span>Over The </span>Hill</h1>
+      </div>
+      <i class="fa fa-bars menu-toggle"></i>
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
 
+        <li>
+          <a href="#">
+            <i class="fa fa-user"></i>
+            ${username}
+            <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+          </a>
+          <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#" class="logout">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
 
 </body>
 </html>
