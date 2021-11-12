@@ -10,3 +10,55 @@
     background: #f6f6f6;
     font-family: 'Lora', serif;
   }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  .btn {
+    padding: .5rem 1rem;
+    background: #006669;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 1.08em;
+    font-family: 'Lora', serif;
+  }
+  
+  .btn-big {
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+  }
+  
+  .btn:hover {
+    color: white !important;
+    background: #005255;
+  }
+  
+  .text-input {
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    color: #444;
+    line-height: 1.5rem;
+    font-size: 1.2em;
+    font-family: 'Lora', serif;
+  }
+
+  .msg {
+      width: 100;
+      margin: 5px auto;
+      padding: 8px;
+      border-radius: 5px;
+      list-style: none;
+  }
