@@ -4,25 +4,15 @@ const passport = require('passport');
 //call google strategy
 const googleStrategy = require('passport-google-oauth').OAuth2Strategy;;
 
-//call facebook strategy
-// const facebookStrategy = require('passport-facebook');
-
-//requiring keys.js and the user model
-const keys = require('./keys');
-// const User = require('../models/User');
-
-//serializing our data for a cookie 
-// passport.serializeUser((user,done )=> {
-//     done(null,user.id);
-// })
-
+//imports our .env that is using dotenv
+require('dotenv').config();
 
 passport.use(
     new googleStrategy({
         //options for the strategy
         callbackURL:"/auth/google/redirect",
-        clientID: keys.google.clientID,
-        clientSecret: keys.google.clientSecret
+        clientID: process.env.clientID,
+        clientSecret: process.env.clientSecret
     }, (token, secretToken, profile, done) => {
         //passport callback function
         console.log('passport function works');
@@ -55,11 +45,4 @@ passport.use(
         })    
 );
 
-// passport.use(
-//     new facebookStrategy({
-
-//     }), () => {
-//         //passport callback function
-//     }
-// )
 
