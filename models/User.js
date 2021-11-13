@@ -2,14 +2,14 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 const bcrypt = require('bcrypt');
 //added from tutorial
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+// const mongoose = require('mongoose');
+// const Schema = mongoose.Schema;
 
-const userSchema = new Schema({
-    username: String,
-    googleID: String
-});
-const User  = mongoose.model('user',userSchema);
+// const userSchema = new Schema({
+//     username: String,
+//     googleID: String
+// });
+// const User  = mongoose.model('user',userSchema);
 
 
 // create our User model

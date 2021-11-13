@@ -3,7 +3,7 @@ const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
 const passportSetup = require('./config/passport-setup');
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
 const keys = require('./config/keys');
 
 const app = express();
@@ -37,9 +37,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 //connect to mongodb
-mongoose.connect(keys.mongodb.dbURI, () => {
-  console.log("connected to mongodb");
-})
+// mongoose.connect(keys.mongodb.dbURI, () => {
+//   console.log("connected to mongodb");
+// })
 
 
 // app.use(require('./controllers/'));
