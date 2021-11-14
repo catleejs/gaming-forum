@@ -35,7 +35,7 @@
   
   .btn {
     padding: .5rem 1rem;
-    background: #006669;
+    background: #8ce0eb;
     color: white;
     border: 1px solid transparent;
     border-radius: .25rem;
@@ -58,9 +58,9 @@
     display: block;
     width: 100%;
     border-radius: 5px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #eda909;
     outline: none;
-    color: #444;
+    color: #d2ccb1;
     line-height: 1.5rem;
     font-size: 1.2em;
     font-family: 'Lora', serif;
@@ -89,7 +89,7 @@
   /* navbar */
 
 header {
-    background: #008489;
+    background: #8ce0eb;
     height: 66px;
   }
   
@@ -109,7 +109,7 @@ header {
   }
   
   header .logo-text span {
-    color: #05f7ff;
+    color: #eda909;
   }
   
   header ul {
@@ -144,7 +144,7 @@ header {
   header ul li ul li a {
     padding: 10px;
     background: white;
-    color: #444;
+    color: #d2ccb1;
   }
   
   header ul li ul li a.logout {
@@ -163,7 +163,7 @@ header {
   }
   
   header ul li a:hover {
-    background: #006669;
+    background: #8ce0eb;
     transition: 0.5s;
   }
   
@@ -176,7 +176,7 @@ header {
   }
   
   .page-wrapper a:hover {
-    color: #006669;
+    color: #8ce0eb;
   }
 
   /* post slider */
@@ -195,7 +195,7 @@ header {
     top: 50%;
     right: 30px;
     font-size: 2em;
-    color: #006669;
+    color: #8ce0eb;
     cursor: pointer;
   }
   
@@ -204,7 +204,7 @@ header {
     top: 50%;
     left: 30px;
     font-size: 2em;
-    color: #006669;
+    color: #8ce0eb;
     cursor: pointer;
   }
   
@@ -272,7 +272,7 @@ header {
 }
 
 .content .popular .post {
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #eda909;
   margin-top: 10px;
   padding-top: 10px;
 }
@@ -292,21 +292,21 @@ header {
 .content .main-content .post .preview-text {
   line-height: 1.5em;
   font-size: 1.03em;
-  color: #444;
+  color: #d2ccb1;
 }
 
 .content .main-content .post .read-more {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  border: 1px solid #006669;
+  border: 1px solid #8ce0eb;
   background: transparent;
   border-radius: 0px;
-  color: #006669 !important;
+  color: #8ce0eb !important;
 }
 
 .content .main-content .post .read-more:hover {
-  background: #006669;
+  background: #8ce0eb;
   color: white !important;
   transition: .25s;
 }
@@ -357,13 +357,13 @@ header {
   margin: 0px;
   padding: 0px;
   list-style: none;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #eda909;
 }
 
 .content .sidebar .section.topics ul li a {
   display: block;
   padding: 15px 0px 15px 0px;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #eda909;
   transition: all 0.3s;
 }
 
@@ -423,7 +423,7 @@ header {
 }
 
 .footer .footer-content .about h1 span {
-  color: #05f7ff;
+  color: #eda909;
 }
 
 .footer .footer-content .about .contact span {
@@ -585,7 +585,7 @@ header {
   }
 
   header ul li ul li a:hover {
-    background: #006669;
+    background: #8ce0eb;
   }
 
   header ul li ul li a.logout {
