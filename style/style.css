@@ -148,7 +148,7 @@ header {
   }
   
   header ul li ul li a.logout {
-    color: red;
+    color: #73926c;
   }
   
   header ul li ul li a:hover {
@@ -401,7 +401,7 @@ header {
 /* footer */
 
 .footer {
-  background: #303036;
+  background: #73926c;
   color: #d3d3d3;
   height: 400px;
   position: relative;
