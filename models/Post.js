@@ -20,22 +20,6 @@ class Post extends Model {
 
 // create fields/columns for Post model
 Post.init(
-<<<<<<< HEAD
-    {
-      id: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        primaryKey: true,
-        autoIncrement: true
-      },
-      title: {
-        type: DataTypes.STRING,
-        allowNull: false
-      },
-      post_text: {
-        type: DataTypes.STRING,
-        allowNull: false,
-=======
   {
     id: {
       type: DataTypes.INTEGER,
@@ -56,7 +40,6 @@ Post.init(
       references: {
         model: "user",
         key: "id",
->>>>>>> 67f3a6fc594766390c4acdd170595099cefb172a
       },
     },
   },
