@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   
 
   "name": "project-two",
@@ -12,6 +13,11 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/madileesmith/project-two.git"
+=======
+  "dependencies": {
+    "materialize": "^1.0.0",
+    "materialize-css": "^1.0.0-rc.2"
+>>>>>>> 32d790f83e3abeee96b2689cf7f8db76878a57de
   },
   "author": "",
   "license": "ISC",
