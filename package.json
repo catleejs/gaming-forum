@@ -1,24 +1,5 @@
 {
-<<<<<<< HEAD
   
-
-  "name": "project-two",
-  "version": "1.0.0",
-  "description": "placeholder repo for project two.",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/madileesmith/project-two.git"
-=======
-  "dependencies": {
-    "materialize": "^1.0.0",
-    "materialize-css": "^1.0.0-rc.2"
->>>>>>> 32d790f83e3abeee96b2689cf7f8db76878a57de
-  },
   "author": "",
   "license": "ISC",
   "bugs": {
