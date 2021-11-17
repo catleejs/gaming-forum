@@ -1,6 +1,9 @@
-node_modules/
+node_modules
 .DS_Store
 .env
+<<<<<<< HEAD
 
 config/keys.js
 /Users/admin/Desktop/Bootcamp/Group-Project-2/project-two/config/keys.js
+=======
+>>>>>>> develop
