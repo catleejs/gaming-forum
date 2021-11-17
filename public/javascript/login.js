@@ -22,7 +22,7 @@ async function signupFormHandler(event) {
       //check the response status
       if (response.ok) {
         //redirect user to this location if the response is true 
-        document.location.replace('/dashboard/');
+        document.location.replace('/');
       } else {
         alert(response.statusText);
       }
@@ -47,7 +47,7 @@ async function signupFormHandler(event) {
       });
   
       if (response.ok) {
-        document.location.replace('/dashboard/');
+        document.location.replace('/');
       } else {
         alert(response.statusText);
       }

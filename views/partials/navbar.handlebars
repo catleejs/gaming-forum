@@ -11,14 +11,17 @@
         <li>
           <a href="#">
             <i class="fa fa-user"></i>
-            ${username}
+            {{username}}
             <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
           </a>
           <ul>
             <li><a href="#">Dashboard</a></li>
-            <li><a href="#" class="login">Login</a></li>
-            <li><a href="#" class="logout">Logout</a></li>
+            <li><a href="/login" id="login">Login</a></li>
+            <li><a href="#" id="logout">Logout</a></li>
           </ul>
         </li>
       </ul>
     </header>
+
+    
+    <script src="/javascript/logout.js"></script>
