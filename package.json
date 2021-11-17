@@ -1,9 +1,4 @@
 {
-<<<<<<< HEAD
-  "dependencies": {
-    "materialize": "^1.0.0",
-    "materialize-css": "^1.0.0-rc.2"
-=======
   "name": "project-two",
   "version": "1.0.0",
   "description": "placeholder repo for project two.",
@@ -15,7 +10,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/madileesmith/project-two.git"
->>>>>>> 02715397cba735cf267687b3f6f0f248abe8d8e3
   },
   "author": "",
   "license": "ISC",
@@ -31,6 +25,8 @@
     "express-handlebars": "^5.3.4",
     "express-session": "^1.17.2",
     "mysql2": "^2.3.3-rc.0",
-    "sequelize": "^6.9.0"
+    "sequelize": "^6.9.0",
+    "materialize": "^1.0.0",
+    "materialize-css": "^1.0.0-rc.2"
   }
 }
