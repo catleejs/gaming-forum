@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS retro_db;
+
+CREATE DATABASE retro_db;
