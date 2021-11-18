@@ -1,4 +1,11 @@
 {
+  
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madileesmith/project-two/issues"
+  },
+  "homepage": "https://github.com/madileesmith/project-two#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.2",
@@ -6,30 +13,14 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.3.4",
     "express-session": "^1.17.2",
+    "mysql2": "^2.3.3-rc.0",
+    "sequelize": "^6.9.0",
+    "materialize": "^1.0.0",
+    "materialize-css": "^1.0.0-rc.2",
     "jest": "^27.3.1",
     "mongoose": "^6.0.12",
-    "mysql2": "^2.3.3",
     "passport": "^0.5.0",
     "passport-facebook": "^3.0.0",
-    "passport-google-oauth": "^2.0.0",
-    "sequelize": "^6.9.0"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
-  "name": "project-two",
-  "description": "placeholder repo for project two.",
-  "version": "1.0.0",
-  "main": "server.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/madileesmith/project-two.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/madileesmith/project-two/issues"
-  },
-  "homepage": "https://github.com/madileesmith/project-two#readme"
+    "passport-google-oauth": "^2.0.0"
+  }
 }
