@@ -145,7 +145,7 @@ header {
   header ul li ul li a {
     padding: 10px;
     background: white;
-    color: #d2ccb1;
+    color: black
   }
   
   header ul li ul li a.logout {
@@ -373,6 +373,7 @@ header {
   transition: all 0.3s;
 }
 
+
 /* auth */
 
 .auth-content {
@@ -407,6 +408,15 @@ header {
   height: 400px;
   position: relative;
 }
+
+#quick-links button {
+  font-size: 20px;
+  margin-bottom: 5px;
+  background-color: #8ce0eb;
+  border-radius: 5px;
+  
+}
+
 
 .footer .footer-content {
   height: 350px;
