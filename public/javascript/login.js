@@ -54,7 +54,9 @@ async function signupFormHandler(event) {
     }
   }
   
+  
   //event listener to attach to the html 
   document.querySelector('#login-form').addEventListener('submit', loginFormHandler);
+  document.queryCommandIndeterm('#google-form').addEventListener('submmit');
   
   document.querySelector('#signup-form').addEventListener('submit', signupFormHandler);
