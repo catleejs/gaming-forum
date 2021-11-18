@@ -53,8 +53,17 @@ async function signupFormHandler(event) {
       }
     }
   }
+
+  function googleFromHandler(event){
+    // event.preventDefault();
+    fetch('/')
+
+
+  }
+
   
   //event listener to attach to the html 
   document.querySelector('#login-form').addEventListener('submit', loginFormHandler);
+  document.querySelector('#google-form').addEventListener('submit', googleFromHandler);
   
   document.querySelector('#signup-form').addEventListener('submit', signupFormHandler);
