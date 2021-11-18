@@ -1,6 +1,6 @@
 const { Comment } = require('../models');
 
-const CommentData = [
+const commentData = [
     {
         id: 1,
         comment_text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias, eius dolorem officia molestiae veritatis a nam dolores illum beatae?",
