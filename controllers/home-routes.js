@@ -45,4 +45,8 @@ router.get('/api/posts/1', function(req, res) {
   res.sendFile(path.join(__dirname, '/post.html'));
 });
 
+router.get('/api/posts/2', function(req, res) {
+  res.sendFile(path.join(__dirname, '/post2.html'));
+});
+
 module.exports = router;
