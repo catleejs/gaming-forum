@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const sequelize = require("../config/connection");
+const path = require('path');
 const { Post, User, Comment } = require("../models");
 
 router.get("/", (req, res) => {
@@ -38,6 +39,14 @@ router.get("/login", (req, res) => {
   }
 
   res.render("login");
+});
+
+router.get('/api/posts/1', function(req, res) {
+  res.sendFile(path.join(__dirname, '/post.html'));
+});
+
+router.get('/api/posts/2', function(req, res) {
+  res.sendFile(path.join(__dirname, '/post2.html'));
 });
 
 module.exports = router;
