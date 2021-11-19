@@ -2,15 +2,18 @@
 const passport = require('passport');
 
 //call google strategy
-const googleStrategy = require('passport-google-oauth').OAuth2Strategy;;
+// const GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
+
+var GoogleStrategy = require( 'passport-google-oauth2' ).Strategy;
+
 
 //imports our .env that is using dotenv
 require('dotenv').config();
 
 passport.use(
-    new googleStrategy({
+    new GoogleStrategy({
         //options for the strategy
-        callbackURL:"/auth/google/redirect",
+        callbackURL:"http://localhost:3001/auth/google/callback",
         clientID: process.env.clientID,
         clientSecret: process.env.clientSecret
     }, (token, secretToken, profile, done) => {
