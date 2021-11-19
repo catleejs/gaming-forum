@@ -56,7 +56,7 @@ async function signupFormHandler(event) {
 
   function googleFromHandler(event){
     // event.preventDefault();
-    fetch('/')
+    fetch('/auth/google')
 
 
   }

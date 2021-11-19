@@ -4,7 +4,7 @@ const { Post, User, Comment } = require('../models');
 const withAuth = require('../utils/auth');
 
 //route to get to the dashboard
-router.get('/', withAuth, (req,res) => {
+router.get('/dashboard', withAuth, (req,res) => {
     //will render the dashboard handlebars if the loggedIn is a truthy
     Post.findAll({
         where:{
