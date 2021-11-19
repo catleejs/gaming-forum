@@ -5,6 +5,9 @@
     "url": "https://github.com/madileesmith/project-two/issues"
   },
   "homepage": "https://github.com/madileesmith/project-two#readme",
+  "scripts": {
+  "seed": "node seeds/index.js"
+  },
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.2",
