@@ -1,24 +1,27 @@
 
-const passport = require('passport');
+// const passport = require('passport');
 
-const router = require('express').Router();
+// const router = require('express').Router();
 
 
 //auth login 
-router.get('/login',(req,res) => {
-    res.render('login')
-});
+// chase commented out
+// router.get('/login',(req,res) => {
+//     res.render('login')
+// });
 
 //auth logout
-router.get('/logout', (req,res) => {
-    //handle with passport 
-    res.send('logging out ')
-});
+// chase commented out
+// router.get('/logout', (req,res) => {
+//     //handle with passport 
+//     res.send('logging out ')
+// });
 
 //auth with google 
-router.get('/google', passport.authenticate('google', {
-    scope:['https://www.googleapis.com/auth/plus.login']
-}));
+// chase commented out
+// router.get('/google', passport.authenticate('google', {
+//     scope:['https://www.googleapis.com/auth/plus.login']
+// }));
 
 // GET /auth/google/callback
 //   Use passport.authenticate() as route middleware to authenticate the
@@ -26,11 +29,13 @@ router.get('/google', passport.authenticate('google', {
 //   login page.  Otherwise, the primary route function function will be called,
 //   which, in this example, will redirect the user to the home page.
 
-router.get('/auth/google/callback', 
-  passport.authenticate('google', { failureRedirect: '/login' }),
-  function(req, res) {
-    res.redirect('/');
-  });
+// chase commented out
+// router.get('/auth/google/callback', 
+//   passport.authenticate('google', { failureRedirect: '/login' }),
+//   function(req, res) {
+//     res.redirect('/');
+//   });
+
 
 //callback route for google to redirect to
 // router.get('/google/redirect', passport.authenticate('google'),(req,res) => {
@@ -38,4 +43,4 @@ router.get('/auth/google/callback',
 // })
 
 
-module.exports = router;
+// module.exports = router;
