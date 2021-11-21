@@ -6,7 +6,7 @@
   },
   "homepage": "https://github.com/madileesmith/project-two#readme",
   "scripts": {
-  "seed": "node seeds/index.js"
+    "seed": "node seeds/index.js"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
