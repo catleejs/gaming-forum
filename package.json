@@ -5,6 +5,9 @@
     "url": "https://github.com/madileesmith/project-two/issues"
   },
   "homepage": "https://github.com/madileesmith/project-two#readme",
+  "scripts": {
+  "seed": "node seeds/index.js"
+  },
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.2",
@@ -12,14 +15,16 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.3.4",
     "express-session": "^1.17.2",
-    "mysql2": "^2.3.3-rc.0",
-    "sequelize": "^6.9.0",
+    "jest": "^27.3.1",
     "materialize": "^1.0.0",
     "materialize-css": "^1.0.0-rc.2",
-    "jest": "^27.3.1",
     "mongoose": "^6.0.12",
+    "mysql2": "^2.3.3-rc.0",
     "passport": "^0.5.0",
     "passport-facebook": "^3.0.0",
-    "passport-google-oauth": "^2.0.0"
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-http-bearer": "^1.0.1",
+    "sequelize": "^6.9.0"
   }
 }
